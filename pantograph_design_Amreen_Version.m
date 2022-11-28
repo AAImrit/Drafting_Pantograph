@@ -1,3 +1,12 @@
+%{
+Author: Amreen Imrit
+Project: MIE301 Redesign Project
+Description: Animates the path and linkage motion of a drafting pantograph at various scales, designed to work with any drawing
+given to the code. Also shows the force analysis on each link at the various scales and drawing. 
+This is designed to work with anydrawing, but the inpur has to be array with the various points making up a drawing, and points should be stored
+in the array sequentially
+%}
+
 %Setting up
 close all; % closes all figures
 clear all; % clears all variables from memory
